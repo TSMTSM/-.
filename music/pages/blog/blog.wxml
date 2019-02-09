@@ -1,0 +1,58 @@
+<!--焦点轮播图：swiper  -->
+<!--autoplay 是否自动切换   -->
+<!-- circular 是否采用衔接滑动 -->
+<!-- interval 自动切换时间间隔  -->
+<swiper 
+indicator-dots='true'
+ autoplay='true'
+ circular='true'
+ interval='3000'>
+   
+<swiper-item>
+<image src='../images/banner1.jpg'></image>
+</swiper-item>
+<swiper-item>
+<image src='../images/banner2.jpg'></image>
+</swiper-item>
+<!-- swiper滑块视图容器  -->
+<swiper-item>
+<image src='../images/banner3.jpg'></image>
+</swiper-item>
+</swiper>
+
+
+<!-- 列表适配  -->
+<!-- data.js中的每一个对象都是一个item -->
+<block wx:for="{{ musicInfo }}">
+<!-- item ={
+    id:0,
+    icon:"../images/head1.png",
+    username:"iwen",
+    time:"2015/6/1",
+    title:"qw",
+    sub:"../images/sub2.png",
+    desc:"i like",
+    collected:20,
+    comment:15
+  }, -->
+  <!--信息列表  -->
+  <view class='articlelist'>
+      <view class='author-info'>
+        <image class='authoricon' src='{{ item.thumbnail_pic_s }}'></image>
+        <text class='authorname'>{{ item.author_name }}</text>
+        <text class='time'>{{ item.date }}</text>
+      </view>
+      
+      <text class='title'>{{ item.title }}</text>
+      <image class='articleimg' src='{{ item.thumbnail_pic_s }}'></image>
+      <text class='articletext'>{{ item.desc }}</text>
+
+      <view class='article-like'>
+          <image class='article-like-icon' src='../images/sc.png'></image>
+          <text class='article-like-text'>{{ item.collected }}</text>
+          <image class='article-like-icon' src='../images/fx.png'></image>
+          <text class='article-like-text'>{{ item.comment }}</text>
+      </view>
+  </view>
+</block>
+

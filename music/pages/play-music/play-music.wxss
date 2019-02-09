@@ -1,0 +1,5 @@
+/* pages/play-music/play-music.wxss */
+.song{
+  display: #fff;
+  color: blue;
+}

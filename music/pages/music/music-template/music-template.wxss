@@ -1,0 +1,26 @@
+.sunshine{
+  background: #fff;
+  /* 上下为10px 左右居中  */
+  margin: 10px auto;
+  padding-bottom: 5px;
+}
+
+.sunshine-music{
+  /* 弹性盒子模型：位置和大小  */
+  display: flex;
+}
+.content{
+  flex: 1;
+  height: 230rpx;
+}
+.info2{
+  /* 左右居中  */
+  text-align: center;
+  font-size: 15px; 
+}
+
+.num{
+  text-align: center;
+  font-size: 10px;
+  color: #eee;
+}

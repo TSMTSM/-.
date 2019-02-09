@@ -1,0 +1,4 @@
+<import src="search-template/search-template.wxml"/>
+<template is="searchTemplate" data="{{ readyData }}">
+
+</template>

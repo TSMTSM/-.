@@ -1,0 +1,10 @@
+<!-- template 添加不了样式  -->
+<template name="playTemplate">
+<view class='play-contorller'>
+
+<image class='music-play' src='../images/playmusic.png'></image>
+<text class='music-name'>{{ name }}</text>
+<image class='play'  bindtap="pauseHandler" src='{{ playing ? "../images/pause.png" : "../images/play.png" }}'></image>
+</view>
+
+</template>

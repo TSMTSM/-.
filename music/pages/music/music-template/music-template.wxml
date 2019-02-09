@@ -1,0 +1,13 @@
+<template name="musicTemplate">
+  <view class='sunshine'>
+            <view class='sunshine-music'  bindtap='gotoDetails' data-type="{{ desc.name }}">
+              <block wx:for="{{ currentMusic }}">
+                <image class='content' src='{{ item.pic_big }}'></image>
+              </block>
+              
+
+              </view>
+              <view class='info2'>{{desc.name}}</view>
+              <view class='num'>{{desc.num}}人关注</view>
+        </view>
+</template>

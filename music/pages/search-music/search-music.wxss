@@ -1,0 +1,2 @@
+/* pages/search-music/search-music.wxss */
+@import "search-template/search-template.wxss";

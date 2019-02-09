@@ -1,0 +1,98 @@
+/* pages/music/music.wxss */
+@import "music-template/music-template.wxss";
+.index-top{
+  display: flex;
+  height: 400rpx;
+  width:100%;
+  background: #fff;
+  margin-bottom: 10px;
+}
+.index-recommend{
+  height: 340rpx;
+  /* 权重  */
+  flex: 1;
+  margin-right: 2rpx;
+  background-image: url("http://wwtliu.com/sxtstu/music/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.index-circle{
+  height: 340rpx;
+  /* 权重  */
+  flex: 1;
+  margin-left: 2rpx;
+  background-image: url("http://wwtliu.com/sxtstu/music/2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info{
+  width: 100%;
+  height: 340rpx;
+  display: flex;
+  /* 左右居中  */
+  text-align: center;
+  /* 垂直居中  */
+  flex-direction: column;
+  /* 上下居中  */
+  justify-content: center;
+}
+
+.time{
+  color: #fff;
+  font-size: 15px;
+}
+
+.day{
+  color: #fff;
+  font-size: 25px;
+}
+.share{
+  
+  color: #fff;
+
+
+}
+
+.recommend-text{
+  margin: 5px;
+  font-size: 14px;
+}
+
+.circle-text{
+  margin: 5px;
+  font-size: 14px;
+}
+
+.line{
+  height: 1px;
+  width: 100%;
+  background: #eee;
+}
+
+
+
+
+
+.search{
+  display: flex;
+}
+
+.search input{
+  flex: 1;
+  height: 30rpx;
+  border-radius: 5px;
+  padding: #222;
+}
+
+.search .btn{
+  border: 1px solid #109D59;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.search .btn text{
+  font-size: 15px;
+  color: #109D59;
+  text-align: center;
+}

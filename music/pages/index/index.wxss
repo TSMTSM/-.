@@ -1,0 +1,28 @@
+.container{
+display: flex;/*弹性盒子模型*/
+flex-direction: column;/*垂直排放*/
+align-items: center;/*左右居中*/
+}
+.logo{
+  width: 392rpx;
+  height: 96rpx;
+  margin-top: 100px;
+}
+.username{
+  margin-top: 50px;
+  color: #109D59;
+}
+.btn{
+  margin-top: 50px;
+  border: 1px solid #109D59;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.btn text{
+  font-size: 15px;
+  color: #109D59;
+}
+
+
+
+

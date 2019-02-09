@@ -1,0 +1,88 @@
+/* pages/blog/blog.wxss */
+image{
+  width: 100%;
+}
+ .articlelist{
+  /*弹性盒子模型  */
+  display: flex;
+  /*垂直摆放*/
+  flex-direction: column;   
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+  /*背景颜色  */
+  background-color: #fff;
+  /*上下边框  */
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  /*内边距  */
+  padding: 10px;
+  padding-bottom: 5px;
+} 
+
+.author-info .authoricon{
+  width: 60px;
+  height: 60px;
+  /* 上下居中  */
+  vertical-align: middle;
+}
+
+.author-info .authorname{
+  margin-left: 20rpx;
+}
+
+.author-info .time{
+  margin-left: 20rpx;
+  vertical-align: middle;
+  /* 字体大小  */
+  font-size: 26rpx;
+}
+
+.title{
+  /*字体大小  */
+  font-size: 34rpx;
+  /* 加粗  */
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.articleimg{
+  margin-left: 16px;
+  /*没有height是100%  */
+  width: 100%;
+  height: 340rpx;
+  /* 左右居中  */
+  margin: auto 0;
+  margin-bottom: 15px;
+}
+
+.articletext{
+  color: #666;
+  font-size: 26rpx;
+  margin-bottom: 20rpx;
+  /* 字体间隙  */
+  letter-spacing: 2rpx;
+  /* 行高  */
+  line-height: 40rpx;
+}
+
+.article-like{
+  font-size: 13px;
+  /* 水平排列  */
+  flex-direction: row;
+  line-height: 16px;
+}
+
+.article-like-icon{
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+  /* 居中  */
+  vertical-align: middle;
+}
+
+.article-like-text{
+  /* 上下居中  */
+  vertical-align: middle;
+  margin-right: 20px;
+}

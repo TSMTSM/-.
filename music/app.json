@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/blog/blog",
+    "pages/music/music",
+    "pages/my/my",
+    "pages/music-details/music-details",
+    "pages/play-music/play-music",
+    "pages/search-music/search-music"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Star",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#109D59",
+    "list": [
+      {
+        "pagePath": "pages/blog/blog",
+        "text": "头条",
+        "iconPath": "pages/images/news.png",
+        "selectedIconPath": "pages/images/news_select.png"
+      },
+      {
+        "pagePath": "pages/music/music",
+        "text": "音乐",
+        "iconPath": "pages/images/music.png",
+        "selectedIconPath": "pages/images/music_select.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "pages/images/my.png",
+        "selectedIconPath": "pages/images/my_select.png"
+      }
+    ]
+  }
+}

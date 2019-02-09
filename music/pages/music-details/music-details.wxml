@@ -1,0 +1,27 @@
+<!--pages/music-details/music-details.wxml-->
+<import src="../play-music/play-template/play-template.wxml"/>
+
+<template is="playTemplate" data="{{name:name,playing:playing }}"></template>
+<view class='music-top'>
+  <image src='http://wwtliu.com/sxtstu/music/1.png'> </image>
+  <view class='info' >
+    <text class='title'>{{ pageInfo.title }}</text>
+    <text class='desc'>{{ pageInfo.desc }}</text>
+  </view>
+</view>
+
+ <view class='music-list'>
+ <block wx:for="{{ musicList }}" wx:for-index="idx">
+    <view class='item' bindtap='gotoPlay' data-id="{{ item.id }}">
+      <text class='num'>{{ idx+1 }}</text>
+      <view class='musicinfo'>
+        <text class='name'>{{ item.title }}</text>
+        <text class='author'>{{ item.author }}</text>
+      </view>
+      <image class='icon' src='{{ item.pic }}'></image>
+
+    </view>
+    </block>
+  </view>
+
+  

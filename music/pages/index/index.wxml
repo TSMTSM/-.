@@ -1,0 +1,9 @@
+<view class="container">
+  <image class="logo" src='../images/logo.png'></image>
+  <text class="username">hello,Star</text>
+  <view class='btn' bindtap='gotoBlog'>
+  <text>欢迎来到网易云的世界</text></view>
+  
+</view>
+<!-- /*在微信小程序中，一个页面被一个文件夹所包含，里面含有四个文件
+   添加第二个页面  */ -->
